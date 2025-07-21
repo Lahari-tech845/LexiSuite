@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LexiSuite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="welcome-screen" id="welcomeScreen">
+    <h2>👋 Welcome to LexiSuite</h2>
+    <p>What would you like help with today?</p>
+    <button onclick="selectMode('creator')">🧑‍🎨 I want to make content easier to read</button>
+    <button onclick="selectMode('reader')">📖 I want help understanding content</button>
+    <button onclick="selectMode('both')">🌈 Both</button>
+  </div>
+
+  <div class="main-panel hidden" id="mainPanel">
+    <h2>LexiSuite Tools</h2>
+    <h2>LexiSuite Tools</h2>
+
+<!-- 👇 ADD THIS BLOCK HERE -->
+ <div id="sampleText" class="text-block" contenteditable="true">
+  <p>
+    The quick brown fox jumps over the lazy dog. This is a sample paragraph for LexiSuite to demonstrate accessibility changes.
+  </p>
+</div>
+
+<div style="margin-top: 10px;">
+  <button onclick="resetText()">🔁 Reset Paragraph</button>
+</div>
+
+
+
+    <div id="creatorTools" class="tool-group hidden">
+      <h3>🧑‍🎨 Creator Tools</h3>
+      <button onclick="makeDyslexiaFriendly()">✅ Make Dyslexia-Friendly</button>
+      <button onclick="checkReadability()">🧪 Check Readability</button>
+      <button onclick="previewDyslexia()">👁️ Dyslexia Simulation</button>
+      <button onclick="scoreAccessibility()">📝 LexiSuite Review</button>
+    </div>
+
+    <div id="readerTools" class="tool-group hidden">
+      <h3>📖 Reader Tools</h3>
+      <button onclick="simplifyText()">✏️ Summarize Paragraph</button>
+      <button onclick="resetText()">🔁 Reset Paragraph</button>
+      <button onclick="visualizeText()">🎨 Visualize Content</button>
+      <button onclick="readAloud()">🔊 Read Aloud</button>
+      <button disabled title="Coming Soon!">🎧 Meeting Mode</button>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <p>🔗 <a href="https://stalwart-sunburst-0a5e5a.netlify.app/" target="_blank">Learn more at LexiSuite</a></p>
+    </div>
+  </div>
+
+  <script src="lexisuite.js"></script>
+  <script src="lexicore.js"></script>
+</body>
+</html>
