@@ -15,13 +15,23 @@ Users select their mode on launch. The interface then loads tools tailored to th
 
 ---
 
-## 🔗 Live Demo
+## 🎥 Live Demo
+Watch the LexiSuite demo here: [YouTube Video](https://youtu.be/DeE14M5ltfQ)
 
+---
+
+## 🔗 Link to Website
 ➡️ [https://lexisuite.netlify.app](https://lexisuite.netlify.app)
 
 ---
 
+## 📄 Pitch Deck
+View the LexiSuite pitch deck: [LexiSuite_Pitch_Deck.pdf](https://github.com/Lahari-tech845/LexiSuite/blob/main/LexiSuite_Pitch_Deck.pdf)
+
+---
+
 ## 🧠 Core Features
+
 
 ### Reader Mode:
 - Summarize paragraphs in plain English  
